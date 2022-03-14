@@ -1,0 +1,16 @@
+public class StarPyramid {
+public static void name(String args[]) {
+	
+	int n=12;
+	if(n%2==0) {
+		System.out.println("n is Even number");
+	}
+	else {
+		System.out.print("n is odd number");
+	}
+	
+}
+
+	
+}
+

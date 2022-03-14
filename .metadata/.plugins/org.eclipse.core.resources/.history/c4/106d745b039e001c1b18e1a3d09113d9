@@ -1,0 +1,20 @@
+
+public class CalculatorAppTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           int firstNum, secondNum,res;
+           firstNum=18;
+           secondNum=89;
+           res=addTwoNumbers(firstNum, secondNum);
+           System.out.println("Result"+res);
+          
+	}
+
+	private static Object addTwoNumbers(int firstNum, int secondNum) {
+		
+		// TODO Auto-generated method stub
+		return firstNum+secondNum;
+	}
+
+}

@@ -1,0 +1,18 @@
+import java.util.*;
+public class StarPyramid1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		BufferedReader bfn = new BufferedReader(new InputStreamReader(System.in));
+		 int n = Integer.parseInt(bfn.readLine());
+		if(n%2==0) {
+			System.out.println("n is Even number " +n);
+		}
+		else {
+			System.out.print("n is odd number" +n);
+		}
+		
+	}
+
+}
